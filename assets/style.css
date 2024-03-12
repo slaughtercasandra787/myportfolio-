@@ -32,10 +32,12 @@ display: inline;
 text-decoration: none;
 }
 body {
-  background-color: #e8ece4;
+  background-color: #dfebf4;
 }
 
 aside p {
+  font-size: 60px;
+  border-right: #7c2a67;
   margin-top: 30px;
   margin-right: 50px;
   font-size: 30px;
@@ -45,16 +47,12 @@ aside p {
 }
 
  .meeting {
-    max-height: auto;
-   max-width: 200px;
-    margin-bottom: 25px;
-    object-fit: contain;
+   max-height: auto;
+   width: 50%;
+   margin-bottom: 25px;
+   object-fit: contain;
   }
 
- /* .main {
-    width:77%;
-    float:right;
-    margin:0px -10px; */
   
 .aboutme {
   display: flex;
@@ -62,39 +60,49 @@ aside p {
 }
 .selfie {
 margin-right: 20px;
-width: 250px;
-height: 200px;
+width: 350px;
+height: 300px;
 
 }
 main{
 display:flex;
 
 }
+main p{
+  font-size: 20px;
+  margin-right: 70px;
+}
 .container {
   padding: 10px;
   text-align: center;
-  border-style: solid;
-  border-width: 1px;
 }
+  /* border-style: solid;
+  border-width: 1px;
+} */
+
 .subsection{
   width: 100%;
   display: flex;
 }
-.card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 10px;
+/* .card {
+  padding: 20px;
   text-align: center;
   border-style: solid;
-  border-width: 1px;
+  border-width: 1px; */
 }
 
 
-.contactme {
-display:inline-flex;
+.contact  {
+display:table-row
 text-align: center;
 padding: 20px;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 30px;
+}
+
+@media screen and (max-width: 992px) {
+}
+
+
+@media screen and (max-width: 768px) {
 }
